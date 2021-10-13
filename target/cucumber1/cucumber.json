@@ -1,0 +1,1117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:12:05.463Z",
+        "line": 4,
+        "name": "To verify the user is able to Provide quantity",
+        "description": "",
+        "id": "buy-product-functionality;to-verify-the-user-is-able-to-provide-quantity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 50254201700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is in the particular product page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_is_in_the_particular_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput class\u003d\"qtyInput\" type\u003d\"text\" aria-describedby\u003d\"w1-15-_errMsg\" autocomplete\u003d\"off\" size\u003d\"4\" value\u003d\"1\" name\u003d\"quantity\" id\u003d\"qtyTextBox\" isvalid\u003d\"true\"\u003e is not clickable at point (439, 260). Other element would receive the click: \u003cu class\u003d\"r-list-fc\" style\u003d\"width:90%;\"\u003e\u003c/u\u003e\n  (Session info: chrome\u003d94.0.4606.81)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:60906}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 484eac5baa09e04d8dd996a9615a1059\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.pages.BuyProductPage.clickquantity(BuyProductPage.java:84)\r\n\tat StepDefinition.Buy_StepDef.user_click_on_the_quantity_field(Buy_StepDef.java:33)\r\n\tat ✽.User Click on the Quantity field(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Buy.feature:6)\r\n",
+              "duration": 3629782500,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User Click on the Quantity field",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_click_on_the_quantity_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Enter the valid number of quantity",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_enter_the_valid_number_of_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Number of quantity appeared",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.number_of_quantity_appeared()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:13:00.155Z",
+        "line": 12,
+        "name": "To verify the user is able to add items in to Add cart",
+        "description": "",
+        "id": "buy-product-functionality;to-verify-the-user-is-able-to-add-items-in-to-add-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90265562600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is in the particular product page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_is_in_the_particular_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3635941400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Click on the Quantity field",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_click_on_the_quantity_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8048643800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Enter the valid number of quantity",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_enter_the_valid_number_of_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7454699300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on the Add to Cart button",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_click_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3212945600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The page navigated to the Shopping cart page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.the_page_navigated_to_the_shopping_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:14:52.897Z",
+        "line": 20,
+        "name": "To verify the user is able to buy the particular Product",
+        "description": "",
+        "id": "buy-product-functionality;to-verify-the-user-is-able-to-buy-the-particular-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63200989000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is in the particular product page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_is_in_the_particular_product_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 943167700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click on the Quantity field",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_click_on_the_quantity_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4086712600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Enter the valid number of quantity",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_enter_the_valid_number_of_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6756089900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Click on the Buy It Now Button",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_click_on_the_buy_it_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003cSecurity Measure\u003e but was:\u003cCheckout | eBay\u003e\r\n\tat org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)\r\n\tat org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)\r\n\tat com.pages.BuyProductPage.bntitle(BuyProductPage.java:123)\r\n\tat StepDefinition.Buy_StepDef.the_page_navigated_to_the_checkout_page(Buy_StepDef.java:66)\r\n\tat ✽.The page navigated to the Checkout page(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Buy.feature:25)\r\n",
+              "duration": 15993300,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "The page navigated to the Checkout page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.the_page_navigated_to_the_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:16:07.977Z",
+        "line": 28,
+        "name": "To verify the user is able to provide shipping address",
+        "description": "",
+        "id": "buy-product-functionality;to-verify-the-user-is-able-to-provide-shipping-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73729885400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is in the check out page",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_is_in_the_check_out_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[contains(@id,\u0027country\u0027)]\"}\n  (Session info: chrome\u003d94.0.4606.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:51221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 89e69e63b1643906ada46276ec9d56ff\n*** Element info: {Using\u003dxpath, value\u003d//select[contains(@id,\u0027country\u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.pages.BuyProductPage.uDetails(BuyProductPage.java:149)\r\n\tat StepDefinition.Buy_StepDef.user_enters_the_details(Buy_StepDef.java:84)\r\n\tat ✽.User enters the details(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Buy.feature:30)\r\n",
+              "duration": 60082439600,
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "User enters the details",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_enters_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002700,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User reaches the Checkout page with the product details",
+            "match": {
+              "location": "StepDefinition.Buy_StepDef.user_reaches_the_checkout_page_with_the_product_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Buy Product Functionality",
+    "description": "",
+    "id": "buy-product-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Buy.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:18:22.088Z",
+        "line": 10,
+        "name": "To verify user is able to Register For Personal account",
+        "description": "",
+        "id": "register-functionality;to-verify-user-is-able-to-register-for-personal-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42024991200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in the home page",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19877734300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks on the register",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_clicks_on_the_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#firstname\"}\n  (Session info: chrome\u003d94.0.4606.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:61607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c2767ab84d9e024ef98154d2a2be8f0a\n*** Element info: {Using\u003did, value\u003dfirstname}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.pages.Register.Paccount(Register.java:69)\r\n\tat StepDefinition.Register_StepDef.user_enter_the_account_details_and_and_and(Register_StepDef.java:30)\r\n\tat ✽.User enter the account details jackeeess and danieel44 and jackdassgganierl433@gmail.com and jac77@k#4566(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Register.feature:5)\r\n",
+              "duration": 232078900,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User enter the account details jackeeess and danieel44 and jackdassgganierl433@gmail.com and jac77@k#4566",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jackeeess",
+                  "offset": 31
+                },
+                {
+                  "val": "danieel44",
+                  "offset": 45
+                },
+                {
+                  "val": "jackdassgganierl433@gmail.com",
+                  "offset": 59
+                },
+                {
+                  "val": "jac77@k#4566",
+                  "offset": 93
+                }
+              ],
+              "location": "StepDefinition.Register_StepDef.user_enter_the_account_details_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks on the Register button",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_clicks_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Account is Registered",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.account_is_registered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:19:24.306Z",
+        "line": 11,
+        "name": "To verify user is able to Register For Personal account",
+        "description": "",
+        "id": "register-functionality;to-verify-user-is-able-to-register-for-personal-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36503300100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in the home page",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21476582000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks on the register",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_clicks_on_the_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#firstname\"}\n  (Session info: chrome\u003d94.0.4606.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:54222}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 911cfe8e4c3e06e8291ec0228719155f\n*** Element info: {Using\u003did, value\u003dfirstname}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.pages.Register.Paccount(Register.java:69)\r\n\tat StepDefinition.Register_StepDef.user_enter_the_account_details_and_and_and(Register_StepDef.java:30)\r\n\tat ✽.User enter the account details teej and Ravii and tejasaaaarrar@gmail.com and SKv@ign#446@344(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Register.feature:5)\r\n",
+              "duration": 57517800,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "User enter the account details teej and Ravii and tejasaaaarrar@gmail.com and SKv@ign#446@344",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teej",
+                  "offset": 31
+                },
+                {
+                  "val": "Ravii",
+                  "offset": 40
+                },
+                {
+                  "val": "tejasaaaarrar@gmail.com",
+                  "offset": 50
+                },
+                {
+                  "val": "SKv@ign#446@344",
+                  "offset": 78
+                }
+              ],
+              "location": "StepDefinition.Register_StepDef.user_enter_the_account_details_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks on the Register button",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_clicks_on_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "Account is Registered",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.account_is_registered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:20:22.371Z",
+        "line": 15,
+        "name": "To verify user is able to Register for Business account",
+        "description": "",
+        "id": "register-functionality;to-verify-user-is-able-to-register-for-business-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92406749400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User is in the home page",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18247354700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on the register",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_clicks_on_the_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"businessaccount-radio\"]\"}\n  (Session info: chrome\u003d94.0.4606.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:55158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3fdd7349d6f65a1172fb7ace5922445b\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"businessaccount-radio\"]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat com.pages.Register.Baccount(Register.java:90)\r\n\tat StepDefinition.Register_StepDef.user_enter_the_business_account_details(Register_StepDef.java:50)\r\n\tat ✽.User enter the Business account details(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Register.feature:18)\r\n",
+              "duration": 60232663300,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "User enter the Business account details",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.user_enter_the_business_account_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on Register button",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Business account is Registered",
+            "match": {
+              "location": "StepDefinition.Register_StepDef.business_account_is_registered()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register Functionality",
+    "description": "",
+    "id": "register-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Register.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:23:13.403Z",
+        "line": 2,
+        "name": "To verify the user is able to search for an item in the application",
+        "description": "",
+        "id": "search-functionality;to-verify-the-user-is-able-to-search-for-an-item-in-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26643849400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 456006500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click on the Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_search_edit_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223996600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the item name in Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_enter_the_item_name_in_search_edit_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9887028200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click the Search button",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1674821800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Products will appear",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.products_will_appear()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:23:52.337Z",
+        "line": 10,
+        "name": "To verify the user is able to search for an unrelated item in the application",
+        "description": "",
+        "id": "search-functionality;to-verify-the-user-is-able-to-search-for-an-unrelated-item-in-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 218527581000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1004392100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on the Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_search_edit_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 372697600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the unrelated item name in Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_enter_the_unrelated_item_name_in_search_edit_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7265076800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click the Search button",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6950022300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User got the message like error",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_got_the_message_like_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:27:46.499Z",
+        "line": 19,
+        "name": "To verify the user is able to view the daily deals",
+        "description": "",
+        "id": "search-functionality;to-verify-the-user-is-able-to-view-the-daily-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29354816600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6475396900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on the  link Daily Deals",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_link_daily_deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4287254900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User reaches the daily deals page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_reaches_the_daily_deals_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:28:26.674Z",
+        "line": 27,
+        "name": "To verify the user is able to select the different categories",
+        "description": "",
+        "id": "search-functionality;to-verify-the-user-is-able-to-select-the-different-categories",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13261882600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382248500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on the link Shop by category",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_link_shop_by_category()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14118093000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select the different categories",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.select_the_different_categories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4756360200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Display the selected the product",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.display_the_selected_the_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:28:59.215Z",
+        "line": 34,
+        "name": "To verify the user is able to filter the products",
+        "description": "",
+        "id": "search-functionality;to-verify-the-user-is-able-to-filter-the-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 142681851000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8369166200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is in product page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_is_in_product_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1951996200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click on the More filters",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_more_filters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7912099900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Select the different Specifications",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.select_the_different_specifications()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925323800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click on the Apply",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.click_on_the_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6293808500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Displayed the Product with given Specificatons",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.displayed_the_product_with_given_specificatons()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T05:31:47.378Z",
+        "line": 52,
+        "name": "To verify that user is able to Add items to the cart",
+        "description": "",
+        "id": "search-functionality;to-verify-that-user-is-able-to-add-items-to-the-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23458468000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User in home page",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202213200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "User click on the Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.user_click_on_the_search_edit_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93166689400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Enter the product name in Search edit box",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.enter_the_product_name_in_search_edit_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6728264200,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Click on the Add to cart button",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.click_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4439165600,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Product will  be Add to cart",
+            "match": {
+              "location": "StepDefinition.Searchfunc_StepDef.product_will_be_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Searchfunc.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:33:55.403Z",
+        "line": 43,
+        "name": "To verify the user is able to get OTP on register email and phone number",
+        "description": "",
+        "id": "sign-in-functionality;to-verify-the-user-is-able-to-get-otp-on-register-email-and-phone-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30337597700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User is in home page",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5160579800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on the Sign in",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_click_on_the_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25124281400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User enters the Email or username",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_enters_the_email_or_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 870297600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on Continue",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_click_on_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4601661100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User clicks on Need help signing in?",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_clicks_on_need_help_signing_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244998600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "in Email Click on Receive email",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.in_email_click_on_receive_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2011182800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Enter OTP received on registered email",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.enter_otp_received_on_registered_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152870000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Ater entering opt recieved in email and click Continue",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.ater_entering_opt_recieved_in_email_and_click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1513835100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "User reached the home page",
+            "match": {
+              "location": "StepDefinition.SignIn_StepDef.user_reached_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign in functionality",
+    "description": "",
+    "id": "sign-in-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/SignIn.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-13T05:35:05.447Z",
+        "line": 2,
+        "name": "To Validate the Title of the Ebay",
+        "description": "",
+        "id": "ebay-url;to-validate-the-title-of-the-ebay",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome\u003d94.0.4606.81)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-L54MKTK\u0027, ip: \u0027192.168.1.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:50326}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3da15d56e74c3b71f02c3b2a2abc4da8\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat com.base.Base.Initialization(Base.java:56)\r\n\tat com.pages.Url.Browserurl(Url.java:13)\r\n\tat StepDefinition.Url_StepDef.user_is_in_the_login_page(Url_StepDef.java:19)\r\n\tat ✽.User is in the Login Page(file:///E:/capg%20training/eclipse/Sprint-02/./src/test/java/Features/Url.feature:3)\r\n",
+              "duration": 8273141800,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "StepDefinition.Url_StepDef.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1003400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "The title of the page should be \"Electronics, Cars, Fashion, Collectibles \u0026 More | eBay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Electronics, Cars, Fashion, Collectibles \u0026 More | eBay\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.Url_StepDef.the_title_of_the_page_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Url",
+    "description": "",
+    "id": "ebay-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Url.feature",
+    "tags": []
+  }
+]

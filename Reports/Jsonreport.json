@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-12T06:30:04.485Z",
+        "line": 2,
+        "name": "To Validate the Title of the Ebay",
+        "description": "",
+        "id": "ebay-url;to-validate-the-title-of-the-ebay",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24030463000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "StepDefinition.Url_StepDef.user_is_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1628450200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The title of the page should be \"Electronics, Cars, Fashion, Collectibles \u0026 More | eBay\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Electronics, Cars, Fashion, Collectibles \u0026 More | eBay\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinition.Url_StepDef.the_title_of_the_page_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Url",
+    "description": "",
+    "id": "ebay-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/url.feature",
+    "tags": []
+  }
+]

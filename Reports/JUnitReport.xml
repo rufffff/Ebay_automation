@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.896">
+    <testcase classname="Ebay Url" name="To Validate the Title of the Ebay" time="25.796">
+        <system-out>
+            <![CDATA[Given User is in the Login Page.............................................passed
+Then The title of the page should be "Electronics, Cars, Fashion, Collectibles & More | eBay".passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
